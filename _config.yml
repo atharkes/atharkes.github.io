@@ -1,3 +1,5 @@
 theme: jekyll-theme-slate
 title: Theo Harkes
 description: Computer Science Student at Utrecht University
+plugins:
+  - jekyll-seo-tag
