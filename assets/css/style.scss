@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-// Global CSS
+// Push Footer Down
 html {
     height: 100%;
     box-sizing: border-box;
@@ -15,7 +15,22 @@ html {
     box-sizing: inherit;
 }
 
-// CSS
+body {
+    position: relative;
+    min-height: 100%;
+}
+
+#main_content_wrap {
+    border: 0;
+    padding-bottom: 6em;
+}
+
+#footer_wrap {
+    position: absolute;
+    bottom: 0;
+}
+
+// Styling
 #header_image {
     float: right;
     max-width: 30%;
