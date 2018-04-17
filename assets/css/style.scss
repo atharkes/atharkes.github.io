@@ -26,10 +26,12 @@ footer {
     overflow: hidden;
 }
 
-footer .icon_wrap {
+footer a {
+    height: 1.5em;
+    line-height: 1.5em;
     float: left;
 }
 
-footer #copright {
+footer #copyright {
     float: right;
 }
