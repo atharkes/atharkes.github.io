@@ -27,6 +27,10 @@ img {
     filter: invert(0.5)
 }
 
+.icon:hover {
+    filter: invert(0.5) sepia(1) hue-rotate(90deg) contrast(5) brightness(0.4)
+}
+
 .icon_wrap {
     margin-left: 5px;
 }
