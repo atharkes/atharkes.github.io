@@ -4,6 +4,10 @@
 @import "{{ site.theme }}";
 
 // CSS
+#project_image {
+    align: right;
+}
+
 footer {
     overflow: hidden;
 }
