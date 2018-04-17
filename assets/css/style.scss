@@ -18,11 +18,12 @@ html {
 body {
     position: relative;
     min-height: 100%;
+    background-color: #f2f2f2;
 }
 
 #main_content_wrap {
     border: 0;
-    padding-bottom: 6em;
+    padding-bottom: 4.5em;
 }
 
 #footer_wrap {
@@ -63,8 +64,11 @@ img {
 
 footer {
     overflow: hidden;
+    padding: 1.5em;
+    height: 1.5em
 }
 
 footer #copyright {
     float: right;
+    line-height: 1.5em;
 }
