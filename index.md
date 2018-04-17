@@ -1,8 +1,10 @@
 <html>
 <body>
     <p>
-        My name is Theo Harkes, I am a Christian, study computer science at <a href="https://www.uu.nl/en">Utrecht University</a>, and am a member of <a href="https://www.nsutrecht.nl/">Navigators Studentenverening Utrecht</a>. I am currently employed by <a href="https://www.uu.nl/en">Utrecht University</a> as student assistent, assisting in courses like datastructures, concurrency, and datastructures and algorithms for AI.
+        My name is Theo Harkes, I am a Christian, study computer science at <a href="https://www.uu.nl/en">Utrecht University</a>, and am a member of <a href="https://www.nsutrecht.nl/">Navigators Studentenverening Utrecht</a>. I am currently employed by <a href="https://www.uu.nl/en">Utrecht University</a> as student assistent, assisting in courses like datastructures, concurrency, and datastructures and algorithms for AI. For more information take a look at my <a href="docs/CV Theo Harkes 2018">curriculum vitae</a>.
     </p>
+
+    <p>Here have some random page filler, while I make up some more content:</p>
 
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu velit facilisis, lacinia elit at, facilisis felis. Sed sit amet aliquam risus. Ut leo lorem, dapibus non hendrerit vel, tempor et risus. Etiam lacinia nulla sit amet urna mollis blandit. Nam ligula libero, consequat pellentesque felis a, feugiat malesuada metus. Integer non nunc mattis, interdum libero sit amet, pharetra libero. Donec auctor quam sed consequat pretium. Praesent eu massa malesuada, fringilla mauris vitae, volutpat eros. Nullam sit amet felis vitae sapien maximus vehicula vitae ac odio. Sed cursus iaculis turpis maximus viverra. Praesent et orci rhoncus, tristique lorem sit amet, eleifend erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras augue nibh, lobortis ac velit et, aliquam tristique felis. Praesent sapien diam, interdum non aliquam non, sollicitudin eget mi. Sed finibus ac diam id molestie. Maecenas tincidunt accumsan magna, a euismod ligula sodales ac.</p>
 
