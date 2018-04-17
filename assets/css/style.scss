@@ -4,9 +4,13 @@
 @import "{{ site.theme }}";
 
 // CSS
-#project_image {
+#header_image {
     float: right;
     max-width: 30%;
+}
+
+#project_title {
+    display: inline-block;
 }
 
 img {
