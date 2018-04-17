@@ -10,7 +10,8 @@
 }
 
 img {
-    margin: 0 0 0 0;
+    padding: 0;
+    margin: 5px;
     border: none;
     box-shadow: none;
     -webkit-box-shadow: none;
@@ -25,6 +26,10 @@ footer {
     overflow: hidden;
 }
 
-footer a {
+footer .icon_wrap {
+    float: left;
+}
+
+footer #copright {
     float: right;
 }
