@@ -3,6 +3,18 @@
 
 @import "{{ site.theme }}";
 
+// Global CSS
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 // CSS
 #header_image {
     float: right;
