@@ -29,6 +29,11 @@ body {
 #footer_wrap {
     position: absolute;
     bottom: 0;
+    height: 4.5em;
+}
+
+.inner {
+    padding: 1.5em 0.75em;
 }
 
 // Styling
@@ -64,8 +69,6 @@ img {
 
 footer {
     overflow: hidden;
-    padding: 1.5em;
-    height: 1.5em
 }
 
 footer #copyright {
