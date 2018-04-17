@@ -18,23 +18,17 @@ img {
 }
 
 .icon {
-    max-height: 2.5em;
-    max-width: 2.5em;
+    max-height: 2em;
+    max-width: 2em;
     filter: invert(0.5)
+}
+
+.icon_wrap {
+    margin-left: 5px;
 }
 
 footer {
     overflow: hidden;
-}
-
-footer a {
-    height: 1.5em;
-    line-height: 1.5em;
-    float: left;
-}
-
-footer .icon_wrap {
-    margin-left: 5px;
 }
 
 footer #copyright {
