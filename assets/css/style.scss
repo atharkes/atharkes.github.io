@@ -11,7 +11,7 @@
 
 img {
     padding: 0;
-    margin: 5px;
+    margin: 0;
     border: none;
     box-shadow: none;
     -webkit-box-shadow: none;
@@ -30,6 +30,10 @@ footer a {
     height: 1.5em;
     line-height: 1.5em;
     float: left;
+}
+
+footer .icon_wrap {
+    margin-left: 5px;
 }
 
 footer #copyright {
