@@ -5,7 +5,9 @@
 
 // CSS
 #project_image {
-    align: right;
+    float: right;
+    max-height: 5em;
+    max-width: 30%;
 }
 
 footer {
