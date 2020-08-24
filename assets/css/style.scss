@@ -18,7 +18,8 @@ html {
 body {
     position: relative;
     min-height: 100%;
-    background-color: #f2f2f2;
+    background-color: #0c0a0b;
+    color: #aaaaa7;
 }
 
 #main_content_wrap {
@@ -42,6 +43,10 @@ body {
     border-bottom-width: 1px;
 }
 
+#header_title, #header_icons {
+    float: left;
+}
+
 #header_image {
     float: right;
     max-width: 30%;
@@ -49,11 +54,6 @@ body {
 
 #main_content_wrap {
     background-color: transparent;
-}
-
-#body {
-    background-color: #0c0a0b;
-    color: #aaaaa7;
 }
 
 #project_title {
