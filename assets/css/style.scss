@@ -3,9 +3,9 @@
 
 @import "{{ site.theme }}";
 
-// Layout
+// Body Layout
 html, body {
-    min-height: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -35,9 +35,18 @@ html, body {
     padding: 1.5em 0.75em;
 }
 
-// Styling
-#header_title, #header_icons {
-    float: left;
+// Header Layout
+#header_inner {
+    flex-direction: row;
+}
+
+#header_text {
+    flex-direction: column;
+}
+
+#header_headline {
+    flex-wrap: wrap;
+    align-items: baseline;
 }
 
 #header_image {
@@ -45,6 +54,7 @@ html, body {
     max-width: 30%;
 }
 
+// Other
 img {
     padding: 0;
     margin: 0;
