@@ -3,34 +3,32 @@
 
 @import "{{ site.theme }}";
 
-// Push Footer Down
-html {
-    height: 100%;
-    box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-
-body {
-    position: relative;
+// Layout
+html, body {
     min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     background-color: #0c0a0b;
     color: #aaaaa7;
 }
 
+#header_wrap {
+    flex-grow: 0;
+    border-bottom-width: 1px;
+    background: -webkit-linear-gradient(top, #323030, #212121);
+}
+
 #main_content_wrap {
+    flex-grow: 1;
     border: 0;
-    padding-bottom: 4.5em;
+    background-color: transparent;
 }
 
 #footer_wrap {
-    position: absolute;
-    bottom: 0;
-    height: 4.5em;
+    min-height: 4.5em;
+    flex-grow: 0;
+    border-top-width: 1px;
 }
 
 .inner {
@@ -38,11 +36,6 @@ body {
 }
 
 // Styling
-#header_wrap {
-    background: -webkit-linear-gradient(top, #323030, #212121);
-    border-bottom-width: 1px;
-}
-
 #header_title, #header_icons {
     float: left;
 }
@@ -50,14 +43,6 @@ body {
 #header_image {
     float: right;
     max-width: 30%;
-}
-
-#main_content_wrap {
-    background-color: transparent;
-}
-
-#project_title {
-    display: inline-block;
 }
 
 img {
@@ -79,11 +64,6 @@ img {
 
 .icon_wrap {
     margin-left: 5px;
-}
-
-footer {
-    overflow: hidden;
-    border-top-width: 1px;
 }
 
 footer #copyright {
