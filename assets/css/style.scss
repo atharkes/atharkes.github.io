@@ -4,13 +4,19 @@
 @import "{{ site.theme }}";
 
 // Body Layout
-html, body, header, footer {
+html, body {
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: stretch;
     background-color: #0c0a0b;
     color: #aaaaa7;
+}
+
+header, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 
 #header_wrap {
