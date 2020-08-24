@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 // Body Layout
-html, body {
+html, body, header, footer {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,6 @@ html, body {
 }
 
 #header_wrap {
-    flex-grow: 0;
     border-bottom-width: 1px;
     background: -webkit-linear-gradient(top, #323030, #212121);
 }
@@ -27,7 +26,6 @@ html, body {
 
 #footer_wrap {
     min-height: 4.5em;
-    flex-grow: 0;
     border-top-width: 1px;
 }
 
@@ -42,6 +40,7 @@ html, body {
 
 #header_text {
     flex-direction: column;
+    flex-grow: 1;
 }
 
 #header_headline {
@@ -50,7 +49,6 @@ html, body {
 }
 
 #header_image {
-    float: right;
     max-width: 30%;
 }
 
