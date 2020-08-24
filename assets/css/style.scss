@@ -37,9 +37,23 @@ body {
 }
 
 // Styling
+#header_wrap {
+    background: -webkit-linear-gradient(top, #323030, #212121);
+    border-bottom-width: 1px;
+}
+
 #header_image {
     float: right;
     max-width: 30%;
+}
+
+#main_content_wrap {
+    background-color: transparent;
+}
+
+#body {
+    background-color: #0c0a0b;
+    color: #aaaaa7;
 }
 
 #project_title {
@@ -69,6 +83,7 @@ img {
 
 footer {
     overflow: hidden;
+    border-top-width: 1px;
 }
 
 footer #copyright {
